@@ -1,0 +1,104 @@
+.cart-title-div {
+    width: auto;
+    height: 12vh;
+    margin-top: 8%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+}
+
+.cart-title {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart-list {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
+.cart-elements {
+    display:flex;
+    flex-direction: column;
+}
+
+.cart-comic-image {
+    display: block;
+    max-width:10vw;
+    max-height:10vh;
+    width: auto;
+    height: auto;
+}
+
+.single-item {
+    border-radius: 8px;
+    width: 40vw;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.cart-comic-title {
+    width: 25vw;
+}
+
+.cart-comic-title, .cart-comic-price, .subtotal, .cart-comic-quantity {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.cart-not-logged-in {
+    font-size: 32px;
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+    height: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart-total {
+    width:25vw;
+    height: 10vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.3%;
+    padding: 1%;
+}
+
+.subtotal { 
+    font-weight: bold;
+    margin: 2%;
+    margin-right:5%;
+    text-align: center;
+}
+
+.cart-button-div {
+    padding-right:2%;
+}
+
+.add-to-cart.cart-button {
+    margin-top:0;
+    font-size: 14px;
+}
+
+.cart-comic-quantity {
+    margin-top: 3%;
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,1 +1,1 @@
-# comic-book-showcase
+No starter code is provided. Start from scratch!
